@@ -15,138 +15,169 @@
 </head>
 <body>
   <h1>Activity Survey</h1>
+  <!-- Panel to hold questions -->
   <div class = "panel panel-info" >
     <div class = "panel-heading">
       <div class = "panel-title"><strong>Survey Questions</strong></div>
     </div><br>
-
-    <input type="text" id="name" class="form-control" required="">
+  
+    <!-- Questions -->
+    <form>
     
-    <h4 id = "questNum"><strong>Question 1</strong></h4>
-    <h4 id = "quest">I like water sports.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="form-group">
+    <label for="profileName">Profile Name</label>
+    <input type="input" class="form-control" id="profileName" placeholder="Jane Doe">
+  </div> 
 
-      <h4 id = "questNum"><strong>Question 2</strong></h4>
-      <h4 id = "quest">I like being outdoors.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q1">I enjoy water sports</label>
+    <class="form-control" id="Q1">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 3</strong></h4>
-      <h4 id = "quest">I prefer to be indoors.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q2">I like being outdoors</label>
+    <class="form-control" id="Q2">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>    
+  </div>
+      
+  <div class="questions">
+    <label for="Q3">I prefer to be indoors</label>
+    <class="form-control" id="Q3">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
+  <div class="questions">
+    <label for="Q4">I have good core stability</label>
+    <class="form-control" id="Q4">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 4</strong></h4>
-      <h4 id = "quest">I have good core stability.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q4">I have good core stability</label>
+    <class="form-control" id="Q4">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 5</strong></h4>
-      <h4 id = "quest">I can use both of my hands.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q4">I have good core stability</label>
+    <class="form-control" id="Q4">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 6</strong></h4>
-      <h4 id = "quest">I have good arm strength.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q4">I have good core stability</label>
+    <class="form-control" id="Q4">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 7</strong></h4>
-      <h4 id = "quest">I can stand unassisted.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q4">I have good core stability</label>
+    <class="form-control" id="Q4">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 8</strong></h4>
-      <h4 id = "quest">I like team activities.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
+  <div class="questions">
+    <label for="Q4">I have good core stability</label>
+    <class="form-control" id="Q4">
+    <select class="custom-select custom-select-sm">
+      <option selected>Pick an answer</option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select> 
+  </div>
 
-      <h4 id = "questNum"><strong>Question 9</strong></h4>
-      <h4 id = "quest">I like enjoy racquet sports.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
 
-      <h4 id = "questNum"><strong>Question 10</strong></h4>
-      <h4 id = "quest">I can move easily in a sports wheelchair.</h4>
-      <select class="custom-select custom-select-sm">
-        <option selected>Pick an answer</option>
-        <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
-      </select> <br><br>
-    </div>
+
+    </form>
+    <button type="submit" class="btn btn-primary btn-md btn-block" class="submit">Submit</button>
 
 
   <script type="text/javascript">
+
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+      var newReservation = {
+        name: $("#name").val().trim(),
+        email: $("#email").val().trim(),
+        phone: $("#phone").val().trim(),
+        id: $("#id").val().trim()
+      };
+
+      $.post("/api/new", newReservation)
+      .then(function(data) {
+        console.log(data);
+        alert("Adding reservation...");
+      });
+    });
   </script>
 </body>
 
 <style>
-  #quest {
+  .questions {
     color: #125581;
     font-family:cursive;
     font-size: 18px;
   }
-  #questNum {
-    font-family:initial;
-  }
+  
 </style>
 </html>
 
@@ -157,15 +188,3 @@
 
 
 
-
-
-<!-- I like water sports
-I like being outdoors
-I prefer to be indoors
-I have good core stability
-I can use both of my hands
-I have good arm strength
-I have good leg strength
-I can stand unassisted
-I like team activities
-I enjoy racquet sports -->
