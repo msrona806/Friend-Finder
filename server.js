@@ -16,10 +16,8 @@ app.use(bodyParser.json());
 
 //______________ ROUTES_________________
 require('./routing/apiRoutes.js')(app);
-  // console.log(res.body)
-
 require('./routing/htmlRoutes.js')(app);
-  // console.log(res.body)
+ 
 //______________LISTENER________________
 
 app.listen(PORT, function() {

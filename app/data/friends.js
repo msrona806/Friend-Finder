@@ -1,5 +1,10 @@
 // hold application data as an array of objects
-// var friends = [];
+var friends = [
+  {
+    name: 'The Tennis Player',
+    
+  }
+];
 // should include name, photo, scores
 
 // Convert each user's results into a simple array of numbers 
@@ -9,3 +14,4 @@
   // The closest match will be the user with the least amount of difference.
 
 // Display the result as a modal pop-up, show name and picture of closest match
+module.exports=friends;
