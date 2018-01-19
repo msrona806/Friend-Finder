@@ -15,13 +15,11 @@ app.use(bodyParser.json());
 
 
 //______________ ROUTES_________________
-app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "public/home.html"));
-});
+require('./routing/apiRoutes.js')(app);
+  // console.log(res.body)
 
-app.get("/survey", function(req, res) {
-  res.sendFile(path.join(__dirname, "public/survey.html"));
-});
+require('./routing/htmlRoutes.js')(app);
+  // console.log(res.body)
 //______________LISTENER________________
 
 app.listen(PORT, function() {

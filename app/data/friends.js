@@ -1,4 +1,5 @@
 // hold application data as an array of objects
+// var friends = [];
 // should include name, photo, scores
 
 // Convert each user's results into a simple array of numbers 
